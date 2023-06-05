@@ -4,5 +4,4 @@ export const CDN_URL =
 export const LOGO_URL =
   "https://www.concettolabs.com/img/appdetails/food-ordering-app/logo.png";
 
-export const MENU_API =
-  "https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=16.7049873&lng=74.24325270000001&restaurantId=";
+export const MENU_API= "https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=16.7049873&lng=74.24325270000001&restaurantId="

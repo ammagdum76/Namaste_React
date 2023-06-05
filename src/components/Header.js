@@ -10,6 +10,7 @@ const Header = () => {
   return (
     <div className="header">
       <div className="logo-container">
+        {" "}
         <Link to="/">
           {" "}
           <img src={LOGO_URL}></img>
@@ -17,19 +18,21 @@ const Header = () => {
         <p id="app-name">Food Delight</p>
       </div>
 
-     
-
       <div className="navbar">
         <ul>
           <li>
-            <Link to="/about">About</Link>
+            <Link to="/about">About </Link>
           </li>
+
           <li>
             <a href="">Services</a>
           </li>
+
           <li>
+            {" "}
             <Link to="/contact">Contact us</Link>
           </li>
+
           <li>
             <a href="">Cart</a>
           </li>
